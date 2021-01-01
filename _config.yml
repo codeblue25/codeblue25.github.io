@@ -26,7 +26,7 @@ logo: "/assets/logo1.png"
 # Build settings
 markdown: kramdown
 inter_post_navigation: false
-highlightjs_theme: "monokai-sublime"
+highlightjs_theme: "a-11-y-light"
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
@@ -68,27 +68,27 @@ descriptions:
 #
 # Example:
 #
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@TheBenCentra"             # (User) Name to display in the footer link
-#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
-#     desc: Follow me on Twitter            # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts
 social:
-  # - name: Twitter
-  #   icon: twitter
-  #   username: TheBenCentra
-  #   url: https://twitter.com/TheBenCentra
-  #   desc: Follow me on Twitter
-  #   share: true
+  - name: Twitter                         # Name of the service
+    icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
+    username: "@TheBenCentra"             # (User) Name to display in the footer link
+    url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+    desc: Follow me on Twitter            # Description to display as link title, etc
+    share: false                           # Include in the "Share" section of posts
+social:
+  - name: Twitter
+    icon: twitter
+    username: TheBenCentra
+    url: https://twitter.com/TheBenCentra
+    desc: Follow me on Twitter
+    share: false
 
-  # - name: Facebook
-  #   icon: facebook
-  #   username: thebencentra
-  #   url: ""
-  #   desc: Friend me on Facebook
-  #   share: true
+  - name: Facebook
+    icon: facebook
+    username: thebencentra
+    url: ""
+    desc: Friend me on Facebook
+    share: false
 
   - name: GitHub
     icon: github
@@ -97,12 +97,12 @@ social:
     desc: Fork me on GitHub
     share: true
 
-  # - name: LinkedIn
-  #   icon: linkedin
-  #   username: Ben Centra
-  #   url: https://www.linkedin.com/pub/ben-centra/47/769/60a
-  #   desc: Connect with me on LinkedIn
-  #   share: true
+  - name: LinkedIn
+    icon: linkedin
+    username: Ben Centra
+    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    desc: Connect with me on LinkedIn
+    share: false
 
   - name: Google+
     icon: google-plus
@@ -130,7 +130,7 @@ social:
     username: ""
     url: ""
     desc: Follow me on Pinterest
-    share: true
+    share: false
 
   - name: SoundCloud
     icon: soundcloud
@@ -179,7 +179,7 @@ social:
     username: ""
     url: ""
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news

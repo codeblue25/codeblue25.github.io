@@ -213,6 +213,11 @@ pre code.hljs {
 /*
 *	Body
 */
+.highlight,pre.highlight{
+	font-family: 'D2 coding', "Consolas", monospace;
+	background:#222222;
+	color:#aab1bf;
+}
 .page-content {
 	// Remove this to make header scrollable again
 	margin-top: 66px;
