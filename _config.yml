@@ -71,21 +71,21 @@ descriptions:
 social:
   - name: Twitter                         # Name of the service
     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-    username: "@TheBenCentra"             # (User) Name to display in the footer link
-    url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+    username: ""        # (User) Name to display in the footer link
+    url:  ""                      # URL of your profile (leave blank to not display in footer)
     desc: Follow me on Twitter            # Description to display as link title, etc
     share: false                           # Include in the "Share" section of posts
 social:
   - name: Twitter
     icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
+    username: ""
+    url: ""
     desc: Follow me on Twitter
     share: false
 
   - name: Facebook
     icon: facebook
-    username: thebencentra
+    username: ""
     url: ""
     desc: Friend me on Facebook
     share: false
@@ -99,8 +99,8 @@ social:
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: ""
+    url: ""
     desc: Connect with me on LinkedIn
     share: false
 
@@ -109,7 +109,7 @@ social:
     username: ""
     url: ""
     desc: Add me to your Circles
-    share: true
+    share: false
 
   - name: YouTube
     icon: youtube
