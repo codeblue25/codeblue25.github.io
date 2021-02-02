@@ -6,8 +6,7 @@ author: codeblue25
 categories: CSS
 ---
 
-```html
-<p class="codepen" data-height="317" data-theme-id="dark" data-default-tab="css,result" data-user="codeblue25" data-slug-hash="jOVPaaY" style="height: 317px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="jOVPaaY">
-  <span>See the Pen <a href="https://codepen.io/codeblue25/pen/jOVPaaY">
-  jOVPaaY</a> by CHOI SUN YOUNG (<a href="https://codepen.io/codeblue25">@codeblue25</a>)
-```
+<iframe height="317" style="width: 100%;" scrolling="no" title="jOVPaaY" src="https://codepen.io/codeblue25/embed/jOVPaaY?height=317&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/codeblue25/pen/jOVPaaY'>jOVPaaY</a> by CHOI SUN YOUNG
+  (<a href='https://codepen.io/codeblue25'>@codeblue25</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
