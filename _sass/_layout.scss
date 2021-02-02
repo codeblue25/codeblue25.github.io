@@ -355,7 +355,7 @@ pre code.hljs {
 		.posts-list {
 			@extend %default-ul;
 			li {
-				padding: modular-scale(-4);
+				/*padding: modular-scale(-4); post 행간 없애기*/ 
 				padding-left: 0;
 			}
 			.desc {
