@@ -25,6 +25,9 @@ logo: "/assets/logo1.png"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 inter_post_navigation: false
 highlightjs_theme: "monokai.sublime"
 
