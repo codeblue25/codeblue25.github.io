@@ -27,12 +27,12 @@ ul.default {
 	@extend %default-ul;
 }
 
-code {
-	background-color: #eee;
-	display: inline-block;
-	border-radius: 3px;
-	padding: 0 3px;
-}
+// code {
+// 	background-color: #eee;
+// 	display: inline-block;
+// 	border-radius: 3px;
+// 	padding: 0 3px;
+// }
 
 blockquote {
 	color: $medium-gray;
@@ -216,7 +216,9 @@ pre code.hljs {
 .highlight,pre.highlight{
 	font-family: 'D2 coding', "Consolas", monospace;
 	background:#222222;
-	color:#aab1bf;
+	// color:#aab1bf;
+	border-radius: 3px;
+	padding: 0 3px;
 }
 .page-content {
 	// Remove this to make header scrollable again
