@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CSS transform"
+title:  "CSS Transform"
 date:   2021-02-02T15:25:52-05:00
 author: codeblue25
 categories: CSS

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CSS transition"
+title:  "CSS Transition"
 date:   2021-02-05T15:25:52-05:00
 author: codeblue25
 categories: CSS
