@@ -27,12 +27,15 @@ ul.default {
 	@extend %default-ul;
 }
 
-// code {
-// 	background-color: #eee;
-// 	display: inline-block;
-// 	border-radius: 3px;
-// 	padding: 0 3px;
-// }
+code {
+	font-family: 'D2 coding', "Consolas", monospace;
+	background:#222222;
+	color: #eee
+	// background-color: #eee;
+	// display: inline-block;
+	// border-radius: 3px;
+	// padding: 0 3px;
+}
 
 blockquote {
 	color: $medium-gray;
