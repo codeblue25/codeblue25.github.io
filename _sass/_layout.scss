@@ -193,6 +193,7 @@ pre code.hljs {
     padding: 0.25em 0;
     @include media ($tablet) {
       background: transparent;
+	  color: #009900;
       display: inline;
       text-decoration: none;
       width: auto;
