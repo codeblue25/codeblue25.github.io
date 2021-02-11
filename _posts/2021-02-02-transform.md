@@ -54,9 +54,12 @@ categories: CSS
 
 <h4>transform-origin</h4>
 
-* defualt로 중앙에 있는 기준점을 바꿀 수 있습니다.
+* defualt로 중앙(50% 50%)에 있는 기준점을 바꿀 수 있습니다.
 * 깂으로 left, right, top, bottom 키워드를 이용할 수 있습니다.
 * 숫자%로 값을 줄 수도 있습니다. 이 때 0% 0%는 좌측 상단(left top)을 뜻합니다.
-* <iframe height="265" style="width: 100%;" scrolling="no" title="jOVPaaY" src="https://codepen.io/codeblue25/embed/jOVPaaY?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<!-- * <iframe height="265" style="width: 100%;" scrolling="no" title="jOVPaaY" src="https://codepen.io/codeblue25/embed/jOVPaaY?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/codeblue25/pen/jOVPaaY'>jOVPaaY</a> by CHOI SUN YOUNG
+  (<a href='https://codepen.io/codeblue25'>@codeblue25</a>) on <a href='https://codepen.io'>CodePen</a>. -->
+* <iframe height="265" style="width: 100%;" scrolling="no" title="Transform-origin" src="https://codepen.io/codeblue25/embed/XWNNrEG?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/codeblue25/pen/XWNNrEG'>Transform-origin</a> by CHOI SUN YOUNG
   (<a href='https://codepen.io/codeblue25'>@codeblue25</a>) on <a href='https://codepen.io'>CodePen</a>.
