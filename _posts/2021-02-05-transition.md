@@ -12,7 +12,6 @@ categories: CSS
 * transition을 사용하기 위해서는 `property` `duration` `time-function` `delay`를 선언해야합니다. 
 * transform과 함께 사용하면 다양한 애니메이션 표현이 가능합니다.
 
-
 <h4>property</h4>
 
 * 어떤 CSS 속성에 변화를 줄 것인지 정합니다. (예: font-size, background-color)
@@ -27,19 +26,32 @@ categories: CSS
 * 재생 시간(경과 시간)을 뜻합니다.
 * s(1초) 또는 ms(0.001초) 단위를 사용합니다.
 
-
 <h4>time-function</h4>
 
 * 변화하는 속도를 정합니다. (생략 가능합니다.)
 * 대표적으로 ease-in, ease-out, ease-in-out, cubic-bezier()이 있습니다.
-
   
 <h4>delay</h4>
 
 * 변화를 지연시킵니다. (생략 가능합니다.)
 * s(1초) 또는 ms(0.001초) 단위와 사용하며, 해당 시간 뒤에 변화가 생깁니다.
 
-<br />
 <iframe height="265" style="width: 100%;" scrolling="no" title="eYBJVpY" src="https://codepen.io/codeblue25/embed/eYBJVpY?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/codeblue25/pen/eYBJVpY'>eYBJVpY</a> by CHOI SUN YOUNG
+  (<a href='https://codepen.io/codeblue25'>@codeblue25</a>) on <a href='https://codepen.io'>CodePen</a>.
+
+<h3>+) Transition Event</h3>
+
+JavaScript의 이벤트와 결합하여 애니메이션을 만들 수 있습니다.
+
+<h4>e.clientX, e.clientY</h4>
+
+현재 마우스의 위치를 나타냅니다.
+
+<h4>transitionend, transitionstart</h4>
+
+이동(transition)이 끝날때, 시작할 때 이벤트가 실행됩니다.
+
+<iframe height="265" style="width: 100%;" scrolling="no" title="transition event" src="https://codepen.io/codeblue25/embed/NWboOWb?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/codeblue25/pen/NWboOWb'>transition event</a> by CHOI SUN YOUNG
   (<a href='https://codepen.io/codeblue25'>@codeblue25</a>) on <a href='https://codepen.io'>CodePen</a>.
