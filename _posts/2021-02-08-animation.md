@@ -84,3 +84,13 @@ categories: CSS
 * ```css
   animation-play-state: paused /*ani 실행을 정지*/
   ```
+
+<h3>+) Animation Event</h3>
+
+* `animationend` ,  `animationstart`
+  * 애니메이션이 끝날 때, 시작할 때 이벤트가 실행됩니다.
+* `animationiteration`
+  * 애니메이션이 반복될 때마다 이벤트가 실행됩니다.
+* <iframe height="265" style="width: 100%;" scrolling="no" title="animation event" src="https://codepen.io/codeblue25/embed/zYoeygj?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/codeblue25/pen/zYoeygj'>animation event</a> by CHOI SUN YOUNG
+  (<a href='https://codepen.io/codeblue25'>@codeblue25</a>) on <a href='https://codepen.io'>CodePen</a>.
