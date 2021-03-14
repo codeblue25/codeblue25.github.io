@@ -44,14 +44,10 @@ categories: CSS
 
 JavaScript의 이벤트와 결합하여 애니메이션을 만들 수 있습니다.
 
-<h4>e.clientX, e.clientY</h4>
-
-현재 마우스의 위치를 나타냅니다.
-
-<h4>transitionend, transitionstart</h4>
-
-이동(transition)이 끝날때, 시작할 때 이벤트가 실행됩니다.
-
-<iframe height="265" style="width: 100%;" scrolling="no" title="transition event" src="https://codepen.io/codeblue25/embed/NWboOWb?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+* `e.clientX` ,  `e.clientY`
+  * 현재 마우스의 위치를 나타냅니다.
+* `transitionend` ,  `transitionstart`
+  * 이동(transition)이 끝날 때, 시작할 때 이벤트가 실행됩니다.
+* <iframe height="265" style="width: 100%;" scrolling="no" title="transition event" src="https://codepen.io/codeblue25/embed/NWboOWb?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/codeblue25/pen/NWboOWb'>transition event</a> by CHOI SUN YOUNG
   (<a href='https://codepen.io/codeblue25'>@codeblue25</a>) on <a href='https://codepen.io'>CodePen</a>.
