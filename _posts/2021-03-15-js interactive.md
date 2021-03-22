@@ -45,7 +45,7 @@ categories: JavaScript
 
 <h1>2. 타이밍 이벤트</h1>
 
-<h4>관련 속성, 메소드</h4>
+<h4>관련 함수</h4>
 
 1. `setTimeout`
 2. `setInterval`
@@ -101,3 +101,23 @@ categories: JavaScript
   }
   counter();
   ```
+
+  ---
+
+<h1>2. 마우스 이벤트</h1>
+
+<h4>관련 속성</h4>
+
+1. `e.clientX` , `e.clientY`
+
+<br/>
+
+<h3>clientX , clientY</h3>
+
+* 브라우저의 왼쪽 상단을 기준으로 **마우스의 현재 위치**를 x, y좌표로 나타냅니다. (단위는 px)
+* 기준을 브라우저 중앙으로 하고 싶을 땐
+  * ```javascript
+    X = -1 + (clientX / window.innerWidth) * 2;
+    Y = 1 - (clientY / window.innerHeight) * 2;
+    ```
+* 위의 식을 이용하여 중앙을 (0,0)으로 설정하고, 왼쪽-오른쪽 위치를 -1에서 1사이, 위-아래 위치를 1에서 -1사이의 값으로 치환할 수 있습니다.
