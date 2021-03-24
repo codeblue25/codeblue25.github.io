@@ -21,7 +21,7 @@ name: Choi Sun Young
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://codeblue25.github.io/" # the base hostname & protocol for your site
 cover: "/assets/header_DY.jpg"
-logo: "/assets/logo1.png"
+logo: "/assets/logo2.png"
 
 # Build settings
 markdown: kramdown
