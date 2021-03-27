@@ -104,11 +104,11 @@ categories: JavaScript
 
   ---
 
-<h1>2. 마우스 이벤트</h1>
+<h1>3. 마우스 이벤트</h1>
 
 <h4>관련 속성</h4>
 
-1. `e.clientX` , `e.clientY`
+1. `clientX` , `clientY`
 
 <br/>
 
@@ -121,3 +121,20 @@ categories: JavaScript
     Y = 1 - (clientY / window.innerHeight) * 2;
     ```
 * 위의 식을 이용하여 중앙을 (0,0)으로 설정하고, 왼쪽-오른쪽 위치를 -1에서 1사이, 위-아래 위치를 1에서 -1사이의 값으로 치환할 수 있습니다.
+
+ ---
+
+<h1>4. 키보드 이벤트</h1>
+
+<h4>관련 속성</h4>
+
+1. `keydown` , `keyup`
+
+<br/>
+
+<h3>keydown , keyup</h3>
+
+* `keydown` 은 키보드 **키를 누르는 동안** 이벤트가 실행됩니다.
+* `keyup` 은 키보드 키에서 **손을 뗄 때** 이벤트가 실행됩니다.
+* http://keycode.info/ 를 통해서 keyCode를 알 수 있습니다.
+  * keyCode를 통해 특정 키를 제어할 수 있습니다.
