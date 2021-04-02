@@ -70,15 +70,16 @@ categories: React
 
 * State를 사용하기 위해서는 먼저 값을 초기화 해야합니다.
   * 컴포넌트를 실행할 때, render()함수보다 먼저 실행되면서 컴포넌트를 초기화 시켜주고 싶은 코드는 constructor()함수 안에  `this.state = {}` 로 작성합니다.
-  * ```jsx
-        class App extends Component {
-        constructor(props) {
-            super(props);
-            }
-        }
-        ```
+* ```jsx
+  class App extends Component {
+    constructor(props) {
+      super(props);
+      }
+    }
+  ```
 
   * 부모 컴포넌트에서 초기화한 State값은 (import한) 자식 컴포넌트의 Props값으로 줄 수 있습니다.
+  
 * ```jsx
     import React, { Component } from "react";
     import Subject from "./Subject";
@@ -104,12 +105,13 @@ categories: React
     
     export default App;
     ```
+
 * App(부모 컴포넌트)에서 subject 값으로 객체를 설정합니다. 
   * ```jsx
         this.state = {
             subject: {title: "WEB", sub: "This is WWW!"}
         }
-        ```
+    ```
 
 * import한 Subject(자식 컴포넌트)는 App의 상태를 Props로 전달 받습니다. 
   * ```jsx
@@ -117,7 +119,7 @@ categories: React
             title = {this.state.subject.title}
             sub = {this.state.subject.sub}>
         </Subject>
-        ```
+    ```
 
 * 따라서 **부모 컴포넌트의 상태를 (import한) 자식 컴포넌트에 전달할 수 있습니다.**
 <br />
@@ -150,7 +152,8 @@ categories: React
     
     export default App;
     ```
-* 여러 개의 state값을 생성하고 싶을 땐 배열[]을 사용합니다.
+
+* 여러 개의 state값을 생성하고 싶을 땐  배열[]을 사용합니다.
   * ```jsx
         class App extends Component {
         constructor(props) {
@@ -163,16 +166,15 @@ categories: React
             ]
             }
         }
-        ```
+    ```
 
 * import한 Toc(자식 컴포넌트)는 App의 상태를 data라는 Props로 전달 받습니다. 
   * ```jsx
-        <Toc data = {this.state.content}></Toc>
-        ```
+    <Toc data = {this.state.content}></Toc>
+    ```
 
 * Toc컴포넌트 내부엔  `this.props.data`  값을 가지게 됩니다. 이를 이용해서 목록을 생성할 수 있습니다.
-  * 이처럼(반복문을 통해) 여러 개의 목록(Elements)을 자동으로 생성할 경우엔, **각 항목들마다 (식별자 역할을 하는) key라는 props를 가지고 있어야 합니다.**
-
+  * 이처럼 여러 개의 목록(Elements)을 자동으로 생성할 경우엔, **각 항목들마다 (식별자 역할을 하는) key라는 props를 가지고 있어야 합니다.**
   * ```jsx
         import React, { Component } from "react";
         
@@ -196,6 +198,6 @@ categories: React
         }
         
         export default Toc;
-        ```
-        
+    ```
+
 * 결과적으로 만약 자식 컴포넌트의 data변경이 생기면, **부모 컴포넌트의 State값으로 제어**할 수 있게 됩니다.
