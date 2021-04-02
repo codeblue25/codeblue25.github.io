@@ -77,6 +77,7 @@ categories: React
             }
         }
         ```
+
   * 부모 컴포넌트에서 초기화한 State값은 (import한) 자식 컴포넌트의 Props값으로 줄 수 있습니다.
 * ```jsx
     import React, { Component } from "react";
@@ -109,6 +110,7 @@ categories: React
             subject: {title: "WEB", sub: "This is WWW!"}
         }
         ```
+
 * import한 Subject(자식 컴포넌트)는 App의 상태를 Props로 전달 받습니다. 
   * ```jsx
         <Subject 
@@ -116,6 +118,7 @@ categories: React
             sub = {this.state.subject.sub}>
         </Subject>
         ```
+
 * 따라서 **부모 컴포넌트의 상태를 (import한) 자식 컴포넌트에 전달할 수 있습니다.**
 <br />
 
@@ -161,12 +164,15 @@ categories: React
             }
         }
         ```
+
 * import한 Toc(자식 컴포넌트)는 App의 상태를 data라는 Props로 전달 받습니다. 
   * ```jsx
         <Toc data = {this.state.content}></Toc>
         ```
+
 * Toc컴포넌트 내부엔  `this.props.data`  값을 가지게 됩니다. 이를 이용해서 목록을 생성할 수 있습니다.
   * 이처럼(반복문을 통해) 여러 개의 목록(Elements)을 자동으로 생성할 경우엔, **각 항목들마다 (식별자 역할을 하는) key라는 props를 가지고 있어야 합니다.**
+
   * ```jsx
         import React, { Component } from "react";
         
@@ -191,4 +197,5 @@ categories: React
         
         export default Toc;
         ```
+        
 * 결과적으로 만약 자식 컴포넌트의 data변경이 생기면, **부모 컴포넌트의 State값으로 제어**할 수 있게 됩니다.
