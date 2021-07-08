@@ -69,7 +69,7 @@ def main_execute(x,y, epoch_count, report ,lr = 0.001):
 ```python
 def model_init():
     global theta_0, theta_1
-    theta_0 = np.random.normal(RND_MEAN, RND_STD, size = [output_cnt])  # 표준정규분포함수를 만들겠다는 뜻
+    theta_0 = np.random.normal(RND_MEAN, RND_STD, size = [output_cnt])
     theta_1 = np.random.normal(RND_MEAN, RND_STD, size = [input_cnt, output_cnt])
 
 def run_train(x,y, epoch_count, report ,lr):
